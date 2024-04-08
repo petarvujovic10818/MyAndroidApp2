@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditPrihodActivity">
+
+    <TextView
+        android:id="@+id/xoo1"
+        style="@style/defStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_income_expense"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="40dp"/>
+
+    <ImageView
+        android:id="@+id/xoo2"
+        style="@style/background_1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintTop_toBottomOf="@id/xoo1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/dollar_sign"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/xoo3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xoo2"
+        android:text="@string/title"
+        android:layout_marginStart="30dp"/>
+
+    <TextView
+        android:id="@+id/xoo4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xoo3"
+        android:text="@string/amount"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/xoo5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/xoo4"
+        android:text="@string/description"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/xoo6"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/xoo3"
+        app:layout_constraintTop_toTopOf="@id/xoo3"
+        android:layout_marginStart="20dp"/>
+
+    <EditText
+        android:id="@+id/xoo7"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/xoo4"
+        app:layout_constraintTop_toTopOf="@id/xoo4"
+        android:layout_marginStart="20dp"/>
+
+    <EditText
+        android:id="@+id/xoo8"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:hint="@string/description"
+        android:gravity="top"
+        android:scrollbars="vertical"
+        android:background="@color/design_default_color_secondary_variant"
+        app:layout_constraintStart_toStartOf="@id/xoo5"
+        app:layout_constraintTop_toBottomOf="@id/xoo5"
+        app:layout_constraintBottom_toTopOf="@id/xoo9"
+        android:layout_marginTop="20dp"
+        android:inputType="textMultiLine"
+        android:visibility="visible"/>
+
+    <Button
+        android:id="@+id/xoo9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/xoo10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/change"
+        app:layout_constraintStart_toEndOf="@id/xoo9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="30dp"/>
+
+
+    <ImageView
+        android:id="@+id/audio_1"
+        style="@style/background_1"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        app:layout_constraintStart_toStartOf="@id/xoo5"
+        app:layout_constraintTop_toBottomOf="@id/xoo5"
+        app:layout_constraintBottom_toTopOf="@id/xoo9"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/mic_icon"
+        android:visibility="invisible"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

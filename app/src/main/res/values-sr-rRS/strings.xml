@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="novcanik_sistem_za_studente_raf_a">Novcanik sistem za studente RAF-a</string>
+    <string name="submit">Potvrdi</string>
+    <string name="unesite_ime">Unesite ime</string>
+    <string name="unesite_prezime">Unesite prezime</string>
+    <string name="unesite_ime_banke">Unesite ime banke</string>
+    <string name="unesite_sifru">Unesite sifru</string>
+    <string name="difference">Razlika:</string>
+    <string name="income">Prihodi:</string>
+    <string name="expense">Rashodi:</string>
+    <string name="overview_of_the_total_account_balance">Pregled ukupnog stanja racuna</string>
+    <string name="enter">Unos</string>
+    <string name="lists">Liste</string>
+    <string name="profile">Profil</string>
+    <string name="balance">Stanje</string>
+    <string name="title">Naslov</string>
+    <string name="amount">Kolicina</string>
+    <string name="audio">Audio</string>
+    <string name="add_to_list">dodaj u listu</string>
+    <string name="description">Opis</string>
+    <string name="enter_new_income_or_expense">Unos novog prihoda ili rashoda</string>
+    <string name="information_about_user">Podaci o korisniku</string>
+    <string name="name">Ime:</string>
+    <string name="surname">Prezime:</string>
+    <string name="bank">Banka:</string>
+    <string name="change">Promeni</string>
+    <string name="log_out">Odjava</string>
+    <string name="information_about_income_expense">Podaci o prihodu/rashodu</string>
+    <string name="edit_income_expense">Promeni prihod/rashod</string>
+    <string name="cancel">Ponisti</string>
+</resources>

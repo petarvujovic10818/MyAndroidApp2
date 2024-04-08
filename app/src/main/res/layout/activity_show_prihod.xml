@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowPrihodActivity">
+
+    <TextView
+        android:id="@+id/tv_podaciOPrihodu"
+        style="@style/defStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/information_about_income_expense"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:id="@+id/imgView_pprh"
+        style="@style/background_1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintStart_toStartOf="@id/tv_podaciOPrihodu"
+        app:layout_constraintTop_toBottomOf="@id/tv_podaciOPrihodu"
+        app:layout_constraintEnd_toEndOf="@id/tv_podaciOPrihodu"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/dollar_sign"/>
+
+    <TextView
+        android:id="@+id/tv_naslov"
+        style="@style/defStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imgView_pprh"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/et_naslov"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/tv_naslov"
+        app:layout_constraintTop_toTopOf="@id/tv_naslov"
+        android:layout_marginStart="20dp"
+        android:focusable="false"/>
+
+    <TextView
+        android:id="@+id/tv_kolicina"
+        style="@style/defStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/amount"
+        app:layout_constraintStart_toStartOf="@id/tv_naslov"
+        app:layout_constraintTop_toBottomOf="@id/tv_naslov"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/et_kolicina"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/tv_kolicina"
+        app:layout_constraintTop_toTopOf="@id/tv_kolicina"
+        android:layout_marginStart="20dp"
+        android:focusable="false"/>
+
+    <TextView
+        android:id="@+id/tv_opis"
+        style="@style/defStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/description"
+        app:layout_constraintStart_toStartOf="@id/tv_kolicina"
+        app:layout_constraintTop_toBottomOf="@id/tv_kolicina"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/editTextOpis"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:gravity="top"
+        android:scrollbars="vertical"
+        android:background="@color/design_default_color_secondary_variant"
+        app:layout_constraintStart_toStartOf="@id/tv_opis"
+        app:layout_constraintTop_toBottomOf="@id/tv_opis"
+        android:layout_marginTop="50dp"
+        android:visibility="visible"/>
+
+    <ImageView
+        android:id="@+id/imgvplay"
+        style="@style/background_1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:layout_constraintStart_toStartOf="@id/tv_opis"
+        app:layout_constraintTop_toBottomOf="@id/tv_opis"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/ic_baseline_play_arrow_24"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/imgpause"
+        style="@style/background_1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:layout_constraintStart_toStartOf="@id/tv_opis"
+        app:layout_constraintTop_toBottomOf="@id/tv_opis"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/ic_baseline_pause_24"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BACK"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="30dp"/>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

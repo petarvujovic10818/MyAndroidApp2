@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView_pregled_racuna"
+        style="@style/defStyle"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/overview_of_the_total_account_balance"
+        android:layout_marginTop="100dp"/>
+
+    <TextView
+        android:id="@+id/text_view_prihod_xx"
+        style="@style/letters_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/textView_pregled_racuna"
+        app:layout_constraintStart_toStartOf="@id/textView_pregled_racuna"
+        android:layout_marginTop="50dp"
+        android:textColor="#00FF00"
+        android:text="@string/income"/>
+
+    <TextView
+        android:id="@+id/text_view_prihod_broj"
+        style="@style/letters_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/text_view_prihod_xx"
+        app:layout_constraintTop_toBottomOf="@id/textView_pregled_racuna"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="50dp"
+        android:textColor="#00FF00"/>
+
+    <TextView
+        android:id="@+id/text_view_rashod_xx"
+        style="@style/letters_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/text_view_prihod_xx"
+        app:layout_constraintStart_toStartOf="@id/text_view_prihod_xx"
+        android:layout_marginTop="50dp"
+        android:textColor="#FF0000"
+        android:text="@string/expense"/>
+
+    <TextView
+        android:id="@+id/text_view_rashod_broj"
+        style="@style/letters_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/text_view_prihod_broj"
+        app:layout_constraintStart_toEndOf="@id/text_view_rashod_xx"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="50dp"
+        android:textColor="#FF0000"/>
+
+    <TextView
+        android:id="@+id/text_view_razlika_xx"
+        style="@style/defStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/text_view_rashod_xx"
+        app:layout_constraintStart_toStartOf="@id/text_view_rashod_xx"
+        android:layout_marginTop="50dp"
+        android:text="@string/difference"/>
+
+    <TextView
+        android:id="@+id/text_view_razlika_broj"
+        style="@style/defStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/text_view_rashod_broj"
+        app:layout_constraintStart_toEndOf="@id/text_view_razlika_xx"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="50dp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name" translatable="false">petar_vujovic_rn10818</string>
+    <string name="novcanik_sistem_za_studente_raf_a">Wallet system for students of RAF</string>
+    <string name="submit">Submit</string>
+    <string name="unesite_ime">Enter name</string>
+    <string name="unesite_prezime">Enter surname</string>
+    <string name="unesite_ime_banke">Enter bank name</string>
+    <string name="unesite_sifru">Enter password</string>
+    <string name="overview_of_the_total_account_balance">Overview of the total account balance</string>
+    <string name="income">Income:</string>
+    <string name="expense">Expense:</string>
+    <string name="difference">Difference:</string>
+    <string name="balance">Balance</string>
+    <string name="enter">Enter</string>
+    <string name="lists">Lists</string>
+    <string name="profile">Profile</string>
+    <string name="title">Title</string>
+    <string name="amount">Amount</string>
+    <string name="audio">Audio</string>
+    <string name="add_to_list">Add to list</string>
+    <string name="description">Description</string>
+    <string name="enter_new_income_or_expense">Enter new income or expense</string>
+    <string name="information_about_user">Information about user</string>
+    <string name="name">Name:</string>
+    <string name="surname">Surname:</string>
+    <string name="bank">Bank:</string>
+    <string name="change">Change</string>
+    <string name="log_out">LOG OUT</string>
+    <string name="information_about_income_expense">Information about income/expense</string>
+    <string name="edit_income_expense">Edit income/expense</string>
+    <string name="cancel">Cancel</string>
+</resources>
